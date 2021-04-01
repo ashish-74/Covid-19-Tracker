@@ -35,7 +35,7 @@ export default class App extends Component {
 
     return (
       <div className={styles.container}>
-      <img className={styles.covid} src={covid} />
+      <img className={styles.covid} src={covid} alt='covid-19' />
         <Cards data={data}/>
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />                      
